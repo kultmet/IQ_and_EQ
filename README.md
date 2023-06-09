@@ -57,6 +57,7 @@ Well done! You did it!
 ## Request/Response examples
 
 
+
 http://127.0.0.1:8000/api/login/ [POST]
 
 ```
@@ -72,6 +73,7 @@ send an empty request. No request body
     "login": "FVeFpgunlP"
 }
 ```
+
 
 
 http://127.0.0.1:8000/api/login/<login:str>/ [GET]
@@ -107,6 +109,7 @@ if test values not recorded:
 ```
 
 
+
 http://localhost:8000/api/iq/ [POST]
 
 ```
@@ -126,6 +129,7 @@ http://localhost:8000/api/iq/ [POST]
     "point": 10
 }
 ```
+
 
 
 http://localhost:8000/api/eq/  [POST]
