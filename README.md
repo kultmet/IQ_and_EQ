@@ -58,7 +58,7 @@ Well done! You did it!
 
 
 
-http://127.0.0.1:8000/api/login/ [POST]
+<code>http://127.0.0.1:8000/api/login/ [POST]</code>
 
 ```
 # request:
@@ -76,7 +76,7 @@ send an empty request. No request body
 
 
 
-http://127.0.0.1:8000/api/login/<login:str>/ [GET]
+<code>http://127.0.0.1:8000/api/login/<login:str>/</code> [GET]
 
 ```
 # response http://127.0.0.1:8000/api/login/FVeFpgunlP/
@@ -110,7 +110,7 @@ if test values not recorded:
 
 
 
-http://localhost:8000/api/iq/ [POST]
+<code>http://localhost:8000/api/iq/</code> [POST]
 
 ```
 # request:
@@ -132,7 +132,7 @@ http://localhost:8000/api/iq/ [POST]
 
 
 
-http://localhost:8000/api/eq/  [POST]
+<code>http://localhost:8000/api/eq/</code>  [POST]
 
 ```
 # request 
