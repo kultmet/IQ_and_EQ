@@ -13,6 +13,13 @@ git clone https://github.com/kultmet/IQ_and_EQ.git
 ```
 
 
+create and active virtualenv 
+
+```
+python -m venv venv
+source venv/Scripts/activate
+```
+
 next - install package manager, - poetry
 
 ```
