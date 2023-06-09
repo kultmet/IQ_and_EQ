@@ -16,6 +16,9 @@ git clone https://github.com/kultmet/IQ_and_EQ.git
 next - install package manager, - poetry
 
 ```
+# go to project dir
+cd IQ_and_EQ/
+
 pip install poetry
 ```
 
