@@ -56,7 +56,8 @@ Well done! You did it!
 
 ## Request/Response examples
 
-[POST]: http://127.0.0.1:8000/api/login/
+
+http://127.0.0.1:8000/api/login/ [POST]
 
 ```
 # request:
@@ -73,7 +74,7 @@ send an empty request. No request body
 ```
 
 
-[GET]: http://127.0.0.1:8000/api/login/<login:str>/
+http://127.0.0.1:8000/api/login/<login:str>/ [GET]
 
 ```
 # response http://127.0.0.1:8000/api/login/FVeFpgunlP/
@@ -105,7 +106,8 @@ if test values not recorded:
 }
 ```
 
-[POST]: http://localhost:8000/api/iq/
+
+http://localhost:8000/api/iq/ [POST]
 
 ```
 # request:
@@ -126,7 +128,7 @@ if test values not recorded:
 ```
 
 
-[POST]: http://localhost:8000/api/eq/
+http://localhost:8000/api/eq/  [POST]
 
 ```
 # request 
