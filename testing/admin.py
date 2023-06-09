@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from testing.models import Letter, TestLogin, LetterEQTest, EQTest
+from testing.models import IQTest, Letter, TestLogin, LetterEQTest, EQTest
 
 
 @admin.register(Letter)
@@ -33,4 +33,12 @@ class EQTestAdmin(admin.ModelAdmin):
     list_display = (
         'login',
         'created_at',
+    )
+
+
+@admin.register(IQTest)
+class IQTestAdmin(admin.ModelAdmin):
+    list_display = (
+        'login',
+        'point'
     )

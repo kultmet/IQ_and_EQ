@@ -12,11 +12,13 @@ Clone the project
 git clone https://github.com/kultmet/IQ_and_EQ.git
 ```
 
+
 next - install package manager, - poetry
 
 ```
 pip install poetry
 ```
+
 
 next - install all requirements
 
@@ -29,11 +31,20 @@ poetry install
 cd ..
 ```
 
+
 next - apply migrations
 
 ```
 python manage.py migrate
 ```
+
+
+next - Populate the database with the required data
+
+```
+python manage.py loaddata db.json
+```
+
 
 next - start
 
